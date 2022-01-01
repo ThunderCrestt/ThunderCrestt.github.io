@@ -31,6 +31,7 @@
     <link href="carousel.css" rel="stylesheet">
   </head>      
   <body>
+
     <div class="navbar-wrapper">
         <div class="container">
   
@@ -52,9 +53,9 @@
                   <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mes différents projets <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="pIA.html">Mes projets d'IA</a></li>
-                        <li><a href="pJV.html">Mes projets jeux vidéo</a></li>
-                        <li><a href="pInfo.html">Mes projets plus généraux</a></li>
+                      <li><a href="pIA.html">Mes projets d'IA</a></li>
+                      <li><a href="pJV.html">Mes projets jeux vidéo</a></li>
+                      <li><a href="pInfo.html">Mes projets plus généraux</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -70,41 +71,53 @@
       <hr class="featurette-divider">
 
       <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <div class="col-md-7 justify-content-center" style="vertical-align: middle;">
+          <h2 class="featurette-heading">Un Petit jeu a la logique floue, <span class="text-muted">des ia plus aboutis</span></h2>
+          <p class="lead">
+            Lors de mon double diplôme à l'uqac j'ai eu la chance de venir intégrer une logique floue basée sur des règles dans le jeu raven que l'on peut retrouver dans le livre 
+            <i>Mat Buckland, Programming Game AI by Example, WordWare.</i>
+            Les différents agents peuvent ainsi rater leurs tirs en fonction de la distance et de l'arme qu'ils portent, iront chercher de la santé si sa vie est basse et qu'une trousse de soin n'est pas loin.
+          </p>
         </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        <div class="col-md-5 justify-content-center" style="vertical-align: middle;">
+          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" src="img/raven.PNG" alt="Generic placeholder image">
         </div>
       </div>
 
       <hr class="featurette-divider">
 
       <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <div class="col-md-7 col-md-push-5 justify-content-center" style="vertical-align: middle;">
+          <h2 class="featurette-heading">CSP pour un Sudoku, <span class="text-muted"> un algorithme de résolution avec contraintes</span></h2>
+          <p class="lead">
+            J'ai pu m'exercer à la résolution de problèmes avec contraintes lors d'un mini-projet de résolution de Sudoku.
+            L'utilisateur peut venir charger différents sudokus sous format texte et voir l'algorithme le résoudre en temps réel
+          </p>
         </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        <div class="col-md-5 col-md-pull-7 justify-content-center" style="vertical-align: middle;">
+          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" src="img/sudoku.png" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 justify-content-center" style="vertical-align: middle;">
+          <h2 class="featurette-heading">Un système expert basé sur les règles, <span class="text-muted">un petit jeu d'exploration </span></h2>
+          <p class="lead">
+              Dans ce jeu un agent régi par un système expert et une vingtaine de règles doit sortir d'une forêt, en découvrant les cases au fur et à mesure il doit trouver la sortie.
+              <br>Cependant des monstres et des trous se trouvent sur la carte, les cases adjacentes à de tels danger seront soit venteuse ou odorante en fonction de la présence d'une crevasse ou d'un monstre.
+              L'agent devait alors décider seul sur quelle case aller et si oui ou non il devait jeter une pierre pour tuer un monstre, dans le but final de trouver la sortie.
+          </p>
+        </div>
+        <div class="col-md-5 justify-content-center" style="vertical-align: middle;">
+          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" src ="img/systemExpert.png" alt="Generic placeholder image">
         </div>
       </div>
 
       <hr class="featurette-divider">
       </div>
+
           <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->

@@ -31,6 +31,7 @@
     <link href="carousel.css" rel="stylesheet">
   </head>      
   <body>
+
     <div class="navbar-wrapper">
         <div class="container">
   
@@ -52,9 +53,9 @@
                   <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mes différents projets <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="pIA.html">Mes projets d'IA</a></li>
-                        <li><a href="pJV.html">Mes projets jeux vidéo</a></li>
-                        <li><a href="pInfo.html">Mes projets plus généraux</a></li>
+                      <li><a href="pIA.html">Mes projets d'IA</a></li>
+                      <li><a href="pJV.html">Mes projets jeux vidéo</a></li>
+                      <li><a href="pInfo.html">Mes projets plus généraux</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -70,41 +71,52 @@
       <hr class="featurette-divider">
 
       <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <div class="col-md-7 justify-content-center" style="vertical-align: middle;">
+          <h2 class="featurette-heading">Une IHM pour gérer des modules zigbee, <span class="text-muted">avec QTcreator</span></h2>
+          <p class="lead">
+            Lors de l'un de mes stages j'ai eu la chance d'expérimenter avec qtCreator dans le but de créer une IHM permettant de recevoir différentes données de modules ZigBee.
+            Le challenge dans ce projet a été de traiter les données de modules très divers, et de maintenir la cohérence des données à travers plusieurs threads ( un thread est associé à un module).
+            Par la suite mon travail a pu être repris pour être intégré dans un hub utilisé en interne par l'entreprise.
+          </p>
         </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        <div class="col-md-5 justify-content-center" style="vertical-align: middle;">
+          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" src="img/zigbee.jpg" alt="Generic placeholder image">
         </div>
       </div>
 
       <hr class="featurette-divider">
 
       <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <div class="col-md-7 col-md-push-5 justify-content-center" style="vertical-align: middle;">
+          <h2 class="featurette-heading">Un petit robot, <span class="text-muted">Première expérimentation avec freeRtos</span></h2>
+          <p class="lead">
+            Lors de mon cursus à l'enib j'ai pu développer les mouvements d'un robot en utilisant de l'asservissement et free rtos.
+            Le robot doté d'une caméra peut soit suivre une couleur définie par l'utilisateur ou bien dans un autre mode rouler librement en évitant les obstacles à l'aide de capteurs IR et à ultrason.
+          </p>
         </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        <div class="col-md-5 col-md-pull-7 justify-content-center" style="vertical-align: middle;">
+          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" src="img/robot.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 justify-content-center" style="vertical-align: middle;">
+          <h2 class="featurette-heading">Un réseau BUS-CAN, <span class="text-muted"> un hub sur QtCreator </span></h2>
+          <p class="lead">
+            Lors de mon cursus j'ai développé sur Qt une IHM et le traitement des données d'un réseau BUS-CAN, sur ce réseau était présent un gyroscope, un anémomètre, et un capteur de luminosité.
+            <br> le but du projet était de rassembler toutes les données des cartes sur une IHM claire, et de pouvoir contrôler le moteur présent dans l'anémomètre pour faire tourner l'hélice.
+          </p>
+        </div>
+        <div class="col-md-5 justify-content-center" style="vertical-align: middle;">
+          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" src ="img/bus_can.jpg" alt="Generic placeholder image">
         </div>
       </div>
 
       <hr class="featurette-divider">
       </div>
+
           <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
